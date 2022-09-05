@@ -884,6 +884,10 @@ video {
     width: 24rem;
   }
 
+  .md\:w-80 {
+    width: 20rem;
+  }
+
   .md\:max-w-3xl {
     max-width: 48rem;
   }
@@ -900,6 +904,10 @@ video {
 
   .md\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {
