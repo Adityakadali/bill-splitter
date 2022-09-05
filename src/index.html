@@ -17,16 +17,11 @@
   <body class="bg-secondary-200 font-spacemono font-bold">
     <div class="grid md:w-screen md:h-screen md:place-items-center">
       <div>
-        <h1
-          class="text-center text-primary-900 text-3xl tracking-[0.5em] my-10"
-        >
-          <span>SPLI</span> <br />
-          <span>TTER</span>
-        </h1>
+        <img class="my-8 mx-auto" src="./images/logo.svg" alt="" />
         <div
           class="flex flex-col bg-secondary-50 rounded-t-3xl md:rounded-3xl max-w-sm md:flex-row md:max-w-fit mx-auto"
         >
-          <form class="container mx-auto p-8 mt-5 md:w-96">
+          <div class="container mx-auto p-8 mt-5 md:w-96">
             <h2 class="text-secondary-600">Bill</h2>
             <div class="flex p-4 mt-4 bg-secondary-100 rounded-lg">
               <svg
@@ -47,43 +42,46 @@
                 class="w-full bg-transparent text-primary-900 text-right text-xl placeholder-primary-900 focus:outline-none"
                 type="text"
                 placeholder="0"
+                id="bill"
               />
             </div>
             <h2 class="text-secondary-600 mt-4">Select Tip %</h2>
             <div class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
-              <label
+              <div
                 class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
               >
-                <input class="hidden" type="radio" name="tip" value="5" />5%
-              </label>
-              <label
+                5%
+              </div>
+              <div
                 class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
               >
-                <input class="hidden" type="radio" name="tip" value="10" />10%
-              </label>
-              <label
+                10%
+              </div>
+              <div
                 class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
               >
-                <input class="hidden" type="radio" name="tip" value="15" />15%
-              </label>
-              <label
+                15%
+              </div>
+              <div
                 class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
               >
-                <input class="hidden" type="radio" name="tip" value="25" />25%
-              </label>
-              <label
+                25%
+              </div>
+              <div
                 class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
               >
-                <input class="hidden" type="radio" name="tip" value="30" />30%
-              </label>
-              <label
-                class="bg-primary-900 text-secondary-100 text-xl p-2 rounded-md text-center"
-              >
-                <input class="hidden" type="radio" name="tip" value="40" />40%
-              </label>
+                30%
+              </div>
+              <input
+                class="text-center bg-secondary-100 rounded-lg text-xl placeholder:text-base text-primary-900 border border-primary-500"
+                type="text"
+                name=""
+                placeholder="CUSTOM"
+                id=""
+              />
             </div>
             <h2 class="text-secondary-600 mt-4">Number of People</h2>
-            <div class="flex p-4 mt-4 bg-secondary-100 rounded-lg">
+            <div class="flex items-center p-4 mt-4 bg-secondary-100 rounded-lg">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -102,7 +100,7 @@
                 placeholder="1"
               />
             </div>
-          </form>
+          </div>
           <div
             class="bg-primary-900 p-8 mx-8 my-4 md:my-8 rounded-lg md:w-80 md:flex md:flex-col md:justify-between"
           >
